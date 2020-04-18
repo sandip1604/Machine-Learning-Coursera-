@@ -1,0 +1,40 @@
+##########    README MULTICLASS LOGISTIC REGRESSION AND NEURAL NETWORKS - HANDWRITTEN DIGITS RECOGNITION #############
+
+IN THIS ASSIGNMENT LOGISTIC REGRESSION WITH MULTICLASS CLASSSIFICATION IS IMPLEMENTED ALONG WITH NEURAL NETWORK. WHOSE BRIEF DETAILS ARE AS FOLLOW
+
+ Multiclass Logistic regression model (one vs all) is trained to recognise the handwritten digits from 0 to 9. 
+
+1. Sigmoid function is used. 
+2. update is made using gradient descent on signoid cost function. 
+3. regularised cost fucntion is also implemeted for non linear decision boundry.
+
+** AFTER TAINING LOGOSITC REGRESSION, MODEL IS ABLE TO PREDICT THE PROBABILITY OF THE EXAMPLE TO BELONG TO EACH CLASS. ***
+
+Training accuracy is 94%.
+Test accuracy is 91%
+
+Neural Network is also tested for the same purpose of recognition of hadnwritten digits in order to compare the perofrmnce with logistic regression. 
+
+Training accuracy: 97.5%
+Testing accuracy: 95%
+
+For more detailed explaination on goal and steps refer the ex3.pdf in 'MULTICLASS LOGISTIC REGRESSION AND NEURAL NETWORKS' folder
+
+files provided by instructer:
+
+ex3.m - Octave/MATLAB script that steps you through part 1
+ex3 nn.m - Octave/MATLAB script that steps you through part 2
+ex3data1.mat - Training set of hand-written digits
+ex3weights.mat - Initial weights for the neural network exercise
+submit.m - Submission script that sends your solutions to our servers
+displayData.m - Function to help visualize the dataset
+fmincg.m - Function minimization routine (similar to fminunc)
+sigmoid.m - Sigmoid function
+
+
+files written by me are:
+
+lrCostFunction.m - Logistic regression cost function
+oneVsAll.m - Train a one-vs-all multi-class classifier
+predictOneVsAll.m - Predict using a one-vs-all multi-class classifier
+predict.m - Neural network prediction function
