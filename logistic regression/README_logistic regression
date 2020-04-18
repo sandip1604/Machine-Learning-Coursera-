@@ -23,8 +23,8 @@ plotDecisionBoundary.m - Function to plot classifier's decision boundary
 
 files written by me are:
 
-[?] plotData.m - Function to plot 2D classification data
-[?] sigmoid.m - Sigmoid Function
-[?] costFunction.m - Logistic Regression Cost Function
-[?] predict.m - Logistic Regression Prediction Function
-[?] costFunctionReg.m - Regularized Logistic Regression Cost
+ plotData.m - Function to plot 2D classification data
+ sigmoid.m - Sigmoid Function
+ costFunction.m - Logistic Regression Cost Function
+ predict.m - Logistic Regression Prediction Function
+ costFunctionReg.m - Regularized Logistic Regression Cost
