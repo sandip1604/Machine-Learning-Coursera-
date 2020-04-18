@@ -3,4 +3,4 @@ This repository is created to handle the Project asignments of Machine Learning 
 
 This repositary contains files of project assignment of Coursera course on Machine learning by Stanford
 
-1. Simple Linear regression with simgle and multiple variable with gradient descent.
+1. Assignment1: Simple Linear regression with simgle and multiple variable with gradient descent.
